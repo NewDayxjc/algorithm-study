@@ -3,14 +3,12 @@ package com.xjc.sort;
 /**
  * @author XiongJinChen
  * @version 1.0
- * @date 2020/6/12 22:34
- * 冒泡排序
- * BubbleSort
+ * @date 2020/6/17 15:21
+ * @name BubbleSort
  */
 public class BubbleSort {
-
     public static void main(String[] args) {
-         int[] a={3,2,67,2,1};
+        int[] a={3,2,67,2,1};
         new BubbleSort().bubbleSortTest(a);
     }
     public void bubbleSort(int[] a){

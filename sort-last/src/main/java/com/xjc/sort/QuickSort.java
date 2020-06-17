@@ -3,13 +3,11 @@ package com.xjc.sort;
 /**
  * @author XiongJinChen
  * @version 1.0
- * @date 2020/6/15 20:52
- * <p>
- * QuickSort
+ * @date 2020/6/17 15:22
+ * @name QuickSort
  */
 public class QuickSort {
     public int quickSort(int[] a,int i,int j){
-        int length = a.length;
         int temp=a[i];
         while(i<j){
             while(a[j]>=temp&&i<j){

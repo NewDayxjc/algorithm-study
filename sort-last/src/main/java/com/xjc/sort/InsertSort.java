@@ -1,13 +1,10 @@
 package com.xjc.sort;
 
-import static jdk.nashorn.internal.objects.Global.print;
-
 /**
  * @author XiongJinChen
  * @version 1.0
- * @date 2020/6/9 21:39
- * <p>
- * insertSort
+ * @date 2020/6/17 15:21
+ * @name InsertSort
  */
 public class InsertSort {
     public static void main(String[] args) {
